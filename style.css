@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  /* Revisit to learn how to download and use free fonts */
+  font-family: Roboto, Verdana, Arial, sans-serif;
+  margin: 0;
+}
+
+.header,
+.footer {
+  background-color: #1F2937;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #F9FAF8;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 24px;
+}
+
+a {
+  text-decoration: 0;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.footer {
+  color: #E5E7EB;
+  padding: 24px;
+  text-align: center;
+}
