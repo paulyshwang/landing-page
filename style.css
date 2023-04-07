@@ -92,6 +92,43 @@ button {
   align-items: center;
 }
 
+.information-header {
+  font-size: 36px;
+  font-weight: bolder;
+  color: #1F2937;
+  text-align: center;
+  margin: 50px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 100px;
+}
+
+.card {
+  flex-shrink: 0;
+  flex-basis: 175px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.card-image {
+  width: 150px;
+  height: 150px;
+  border: 4px solid #3882F6;
+  border-radius: 8px;
+}
+
+.card-info {
+  font-size: 18px;
+  color: #85878C;
+  text-align: center;
+}
+
 .footer {
   color: #E5E7EB;
   padding: 24px;
