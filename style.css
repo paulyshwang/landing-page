@@ -46,6 +46,7 @@ a {
   padding: 100px;
   gap: 50px;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .hero-text {
@@ -107,6 +108,7 @@ button {
   justify-content: center;
   gap: 40px;
   margin-bottom: 100px;
+  flex-wrap: wrap;
 }
 
 .card {
