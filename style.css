@@ -156,6 +156,39 @@ button {
   font-weight: bold;
 }
 
+.call-to-action-container {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+.call-to-action {
+  background-color: #3882F6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 50px;
+  width: 950px;
+  flex-shrink: 0;
+}
+
+h3,
+p {
+  margin: 4px;
+}
+
+.call-to-action-text {
+  color: #F9FAF8;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+.call-to-action button {
+  border: 2px solid #F9FAF8;
+  flex-shrink: 0;
+}
+
 .footer {
   color: #E5E7EB;
   padding: 24px;
