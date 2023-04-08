@@ -16,7 +16,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px;
+  padding: 24px;
 }
 
 .logo {
@@ -191,6 +191,6 @@ p {
 
 .footer {
   color: #E5E7EB;
-  padding: 24px;
+  padding: 36px;
   text-align: center;
 }
